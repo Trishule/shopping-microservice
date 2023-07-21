@@ -3,6 +3,7 @@ package com.trishul.productservice.controller;
 import com.trishul.productservice.model.Product;
 import com.trishul.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
